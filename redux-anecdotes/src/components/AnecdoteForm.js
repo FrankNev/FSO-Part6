@@ -11,14 +11,11 @@ const AnecdoteForm = () => {
       const newAnecdote = e.target.anecdote.value
       dispatch(createAnecdote(newAnecdote))
 
-      dispatch( newNotification(`New anecdote added: ${newAnecdote}`) 
-      )
+      dispatch(newNotification(`New anecdote added: ${newAnecdote}`))
       e.target.reset()
 
       setTimeout(() => {
-         dispatch(
-            removeNotification()
-         )
+         dispatch(removeNotification())
       }, 5000)
    }
 
