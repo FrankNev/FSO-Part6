@@ -31,14 +31,19 @@
       "votes": 0
     },
     {
-      "content": "Test anecdote",
-      "votes": 3,
-      "id": "FATsBYL"
+      "content": "The best example anecdote is undoubtedly this one",
+      "votes": 4,
+      "id": "my11Lzf"
+    },
+    {
+      "content": "New Test",
+      "votes": 1,
+      "id": "rUGeWDy"
     },
     {
       "content": "Another anecdote for testing",
-      "votes": 1,
-      "id": "GTyce4f"
+      "votes": 2,
+      "id": "ZEsVoLE"
     }
   ]
 }
